@@ -1,0 +1,12 @@
+{
+	"name": "my-hyper-tomorrow-night",
+	"version": "1.0.0",
+	"description": "my tomorrow night theme for hyper.js",
+	"keywords": [ "hyper", "theme", "tomorrow-night" ],
+	"author": "dayervi",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dayervi/my-hyper-tomorrow-night"
+	},
+	"main": "index.js"
+}
