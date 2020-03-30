@@ -36,9 +36,20 @@ exports.decorateConfig = config => Object.assign({}, config, {
 	},
 
 	css: `
-		.header_header{ background-color: #1d1f21 !important; }
-		.tabs_title { color: #b4b7b4; }
-		.tab_active { background-color: #27292b; }
+		.tabs_title {
+			color: #c4c7c4;
+			font-weight: bold;
+		}
+		.tab_tab {
+			background-color: #3c3e40;
+			color: #c4c7c4;
+			opacity: .5;
+			font-weight: bold;
+		}
+		.tab_active {
+			background-color: #27292b;
+			opacity: 1;
+		}
 		${config.css}
 	`
 
